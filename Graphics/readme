@@ -1,0 +1,23 @@
+Animation Program
+
+Description
+This Java program demonstrates simple animation using Swing components. It includes a moving image (enemy) within a panel that bounces off the panel edges. The background is set with a space-themed image. The animation utilizes a timer to update the position of the enemy image.
+
+Features
+Moving Image: An enemy image moves within a panel, bouncing off the edges.
+Background Image: Uses a space-themed background image for the panel.
+Animation Loop: Utilizes a timer to continuously update the position of the enemy image, creating the animation effect.
+User Interface: Displays the animation within a JFrame using Swing components.
+
+How to Use
+Run the Main class to start the animation.
+The animation will begin in a new window (MyFrame).
+Watch the enemy image move within the panel, bouncing off the edges.
+Close the window to stop the program.
+
+Technologies Used
+Java
+Swing (for GUI components)
+
+Contributions
+Contributions to enhance animation effects, improve performance, or add new features are welcome. Please fork the repository and create a pull request.
