@@ -1,0 +1,32 @@
+Java Login System
+
+Description
+This Java application demonstrates a simple login system using Swing GUI components. It allows users to log in with predefined usernames and passwords stored in a HashMap. Upon successful login, a welcome page displays a personalized greeting for the logged-in user.
+
+Features
+Login Interface: Provides a user interface with fields for entering a username and password.
+Authentication: Validates user credentials against stored data in a HashMap.
+Feedback Messages: Displays messages for successful login, incorrect password, or unknown username.
+Reset Functionality: Allows users to clear entered data and reset the login form.
+Welcome Page: After successful login, shows a welcome page with a personalized greeting for the user.
+Technologies Used
+Java
+Swing (for GUI components)
+HashMap (for storing login credentials)
+
+How to Use
+Run the Main class to start the login system.
+The login window (Loginpage) will appear.
+Enter a username and password:
+Existing Users:
+Username: Heramb, Password: 12345678
+Username: Brpmetheus, Password: PASSWORD
+Username: Kunal, Password: abc123
+You can add more users by modifying the Idpass class.
+Click Login to attempt login:
+If credentials are correct, a welcome page (Welpg) with a personalized greeting will appear.
+If the password is incorrect or the username doesn't exist, appropriate error messages will be displayed.
+Click Reset to clear entered data and reset the login form.
+
+Contributions
+Contributions to enhance user interface features, improve authentication methods, or add new functionalities are welcome. Please fork the repository and create a pull request.
