@@ -1,0 +1,25 @@
+Heramb's Text Editor
+
+Description
+Heramb's Text Editor is a simple Java application that provides basic text editing functionalities. It allows users to open and save text files, change font styles and sizes, select text color, and displays word and line counts in real-time.
+
+Features
+Text Editing: Edit text with standard operations such as typing, deleting, and selecting.
+Font Selection: Choose from a variety of available fonts.
+Font Size Adjustment: Adjust the font size using a spinner control.
+Text Color: Change the color of the text using a color picker.
+File Operations:
+Open: Load text files (.txt) into the editor.
+Save: Save the current text content into a new or existing file.
+Status Bar: Displays the current word and line count of the text.
+
+How to Use
+Run the Main class (Texteditor) to start the text editor.
+Use the menu options under File to open or save text files.
+Adjust the font and size using the spinner and font dropdown.
+Change the text color by clicking on the Color button.
+Edit text directly in the main text area.
+The status bar at the bottom updates in real-time to show the number of words and lines in the text.
+
+Contributions
+Contributions to enhance the text editor functionality (e.g., adding more file formats support, improving UI/UX, adding search/replace features) or fixing bugs are welcome. Please fork the repository and create a pull request.
