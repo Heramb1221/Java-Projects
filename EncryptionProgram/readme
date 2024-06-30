@@ -1,0 +1,26 @@
+Encryption Program
+
+Description
+This Java program demonstrates a simple encryption and decryption mechanism using a shuffled list of ASCII characters. It allows users to generate a new encryption key, encrypt a message using the generated key, decrypt an encrypted message back to its original form, and display the current encryption key.
+
+Features
+New Key Generation: Generates a new encryption key by shuffling ASCII characters from space (ASCII 32) to tilde (ASCII 126).
+Key Display: Displays the current encryption key and its shuffled version.
+Encryption: Encrypts user-provided messages using the shuffled key.
+Decryption: Decrypts encrypted messages back to their original form using the shuffled key.
+User Interaction: Utilizes console input to interact with the program, offering options to perform different operations.
+
+How to Use
+Run the Encryption class from the Main method.
+Follow the console prompts:
+Press N to generate a new encryption key.
+Press G to display the current encryption key and its shuffled version.
+Press E to encrypt a message. Enter the message when prompted.
+Press D to decrypt a message. Enter the encrypted message when prompted.
+Press Q to quit the program.
+
+Technologies Used
+Java
+
+Contributions
+Contributions to improve encryption algorithms, enhance user interface, or add new features are welcome. Please fork the repository and create a pull request.
