@@ -1,0 +1,28 @@
+Java Emojis Viewer
+
+Description
+This Java application demonstrates a simple GUI using Swing to display different emojis based on mouse interactions. It allows users to see different emojis when hovering over or clicking on a JLabel component.
+
+Features
+Emoji Display: Displays emojis (smile, nervous, pain, dizzy) based on mouse events.
+Mouse Events: Changes emoji displayed:
+Mouse Entered: Displays a nervous emoji.
+Mouse Exited: Displays a smile emoji.
+Mouse Pressed: Displays a pain emoji.
+Mouse Released: Displays a dizzy emoji.
+
+How to Use
+Run the MyFrame class.
+The GUI window will appear displaying an initial smile emoji.
+Interact with the emoji by:
+Moving the mouse over the emoji to see a nervous face.
+Clicking on the emoji to see a pain face.
+Releasing the click to see a dizzy face.
+Moving the mouse away from the emoji to return to the smile face.
+
+Technologies Used
+Java
+Swing (for GUI components)
+
+Contributions
+Contributions to add more emojis or enhance the functionality are welcome. Please fork the repository and create a pull request.
