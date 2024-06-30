@@ -1,0 +1,28 @@
+Java Pong Game
+
+Description
+This Java application implements a classic Pong game using Swing for GUI rendering. Players control paddles to hit a ball back and forth across the screen. The game includes basic collision detection, scoring, and player controls.
+
+Features
+Paddle Controls: Players can control two paddles using designated keys:
+Player 1 (Blue Paddle): W (Up), S (Down)
+Player 2 (Red Paddle): Up Arrow (Up), Down Arrow (Down)
+Ball Movement: The ball moves at a random velocity and changes direction upon collision with paddles or walls.
+Collision Detection: Handles collisions between the ball and paddles, as well as ball-wall collisions.
+Scoring: Tracks and displays scores for both players in real-time.
+Graphics and GUI: Utilizes Swing for graphical rendering, with customizable colors and fonts.
+
+How to Play
+Run the Main class to start the game (GFrame).
+Use the following controls to play:
+Player 1 (Blue Paddle):
+W (Up): Move paddle up
+S (Down): Move paddle down
+Player 2 (Red Paddle):
+Up Arrow: Move paddle up
+Down Arrow: Move paddle down
+The game continues until one player reaches the winning score limit (default is not specified in the provided code).
+Scores are displayed at the top center of the screen.
+
+Contributions
+Contributions to improve gameplay mechanics, add features (e.g., difficulty levels, multiplayer support), or enhance UI/UX are welcome. Please fork the repository and create a pull request.
