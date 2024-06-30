@@ -1,0 +1,22 @@
+Stopwatch Application
+
+Description
+This Stopwatch application is a simple Java GUI (Graphical User Interface) program that allows users to start, stop, and reset a stopwatch timer. It displays the elapsed time in hours, minutes, and seconds format.
+
+Features
+Start Button: Initiates the stopwatch timer, starting from zero.
+Stop Button: Pauses the stopwatch timer, allowing the user to resume later.
+Reset Button: Resets the stopwatch timer to zero.
+Time Display: Shows the elapsed time in hours, minutes, and seconds format.
+
+How to Use
+Run the Main class (Stopwatch) to launch the Stopwatch application.
+The stopwatch initially displays "00:00:00".
+Click the "START" button to start the stopwatch timer.
+Click the "STOP" button to pause the stopwatch timer.
+Click the "START" button again to resume timing from where it was paused.
+Click the "RESET" button to reset the stopwatch timer back to "00:00:00".
+Close the application window to exit.
+
+Contributions
+Contributions to enhance the functionality (e.g., adding lap times, improving timer accuracy) or fixing bugs are welcome. Please fork the repository and create a pull request.
