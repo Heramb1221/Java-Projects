@@ -1,0 +1,27 @@
+Java Brick Breaker Game
+
+Description
+This Java application implements a classic brick breaker game. The player controls a paddle to bounce a ball, aiming to break all bricks on the screen. The game includes features such as power-ups and sound effects.
+
+Features
+Paddle Control: Use the left and right arrow keys to move the paddle.
+Ball and Brick Interaction: The ball bounces off the paddle and breaks bricks upon collision.
+Score Tracking: Score increases as bricks are broken.
+Game Over and Victory: Displays game over screen when the ball falls below the paddle or victory screen when all bricks are destroyed.
+Power-Ups: Occasionally, power-ups drop from broken bricks, affecting gameplay.
+Pause Functionality: Press 'P' to pause and resume the game.
+Sound Effects: Includes sound effects for ball collisions and game events.
+
+How to Play
+Run the Main class.
+Use the left and right arrow keys to move the paddle.
+Bounce the ball to break bricks and earn points.
+Avoid letting the ball fall below the paddle.
+Break all bricks to win the game.
+
+Technologies Used
+Java
+Swing (for GUI)
+javax.sound.sampled (for sound effects)
+Contributions
+Contributions to enhance the game's features or fix issues are welcome. Please fork the repository and create a pull request.
