@@ -1,0 +1,26 @@
+Heramb's Audio Player
+
+Overview
+Heramb's Audio Player is a simple Java-based audio player application with a graphical user interface (GUI). It allows users to select, play, stop, and reset audio files. The application displays the current playback position and progress using a progress bar and a timer.
+
+Features
+Play Audio: Select and play audio files.
+Stop Audio: Stop the currently playing audio.
+Reset Audio: Reset the audio playback to the beginning.
+Progress Bar: Visual representation of the current playback position.
+File Details: Display the name of the currently loaded audio file.
+Playback Position: Show the current position and duration of the audio.
+
+Components
+Player Class
+This class extends JFrame and provides the main user interface for the audio player. It includes buttons for playing, stopping, and resetting audio, as well as a progress bar and labels to display the file name and playback position.
+
+Key Methods:
+chooseAndPlayAudio: Opens a file chooser to select an audio file and starts playback.
+playAudio: Plays the selected audio file.
+stopAudio: Stops the currently playing audio.
+resetAudio: Resets the audio playback to the beginning.
+formatTime: Formats the playback time in minutes and seconds.
+
+Main Class
+This class contains the main method to launch the audio player application using SwingUtilities.invokeLater to ensure thread safety for the GUI.
