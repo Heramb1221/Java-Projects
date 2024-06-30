@@ -1,0 +1,24 @@
+Java Digital Clock
+
+Description
+This Java application creates a digital clock with a graphical user interface (GUI) using Swing. It displays the current time, day of the week, and date in a visually appealing layout.
+
+Features
+Time Display: Shows current time in hours, minutes, seconds, and AM/PM format.
+Day Display: Displays the current day of the week (e.g., Monday, Tuesday).
+Date Display: Shows the current date in the format "Month Day, Year" (e.g., June 30, 2024).
+Dynamic Update: Updates the time, day, and date every second.
+
+How to Use
+Run the MyFrame class.
+The digital clock interface will appear, showing the current time, day, and date.
+The time, day, and date will update automatically every second.
+
+Technologies Used
+Java
+Swing (for GUI)
+java.text.SimpleDateFormat for date and time formatting
+java.util.Calendar for getting current date and time
+
+Contributions
+Contributions to enhance the digital clock's features or fix issues are welcome. Please fork the repository and create a pull request.
