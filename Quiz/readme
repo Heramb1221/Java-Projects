@@ -1,0 +1,21 @@
+Java Quiz Application
+
+Description
+This Java application implements a simple quiz game using Swing for GUI components. Users are presented with multiple-choice questions, and they select their answers within a time limit. The quiz evaluates user responses and provides results at the end of the quiz.
+
+Features
+Multiple Questions: Includes a set of predefined questions with multiple-choice options.
+Timer: Each question has a timer that counts down from 10 seconds.
+Score Calculation: Tracks correct answers and calculates the percentage score based on the number of correct answers.
+Interactive GUI: Utilizes Swing components such as JTextArea, JLabel, JTextField, and JButtons for a user-friendly interface.
+Feedback: Provides immediate feedback on each answer with color-coded indicators.
+Results Display: Displays final results showing the number of correct answers and the percentage score.
+
+How to Use
+Run the Main class to start the quiz (Quiz).
+Answer each question by clicking on the corresponding A, B, C, or D button.
+Each question has a 10-second timer. If no answer is selected within the time limit, the correct answer is displayed.
+After answering all questions, the application displays the total number of correct answers and the percentage score.
+
+Contributions
+Contributions to enhance the quiz functionality (e.g., adding more questions, improving timer behavior, adding sound effects) or improving the user interface are welcome. Please fork the repository and create a pull request.
