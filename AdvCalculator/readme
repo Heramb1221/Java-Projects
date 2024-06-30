@@ -1,0 +1,30 @@
+Usage
+Standard Mode: The calculator starts in Standard mode. You can perform basic arithmetic operations using the number and operator buttons.
+
+Scientific Mode: Select "Scientific" from the "Calculator type" dropdown menu to enable scientific functions such as square root, power, and natural logarithm.
+
+Themes: Choose a theme from the "Theme" dropdown menu to change the calculator's appearance.
+
+Code Overview
+Main Class: AdvCalculator
+Initializes the GUI components.
+Handles button actions for arithmetic operations.
+Supports switching between Standard and Scientific modes.
+Provides theme-switching functionality.
+
+Key Methods
+initCombo(String[] items, int x, int y, String toolTip, Consumer consumerEvent): Initializes a JComboBox with the specified items and adds it to the window.
+initBtn(String label, int x, int y, ActionListener event): Initializes a JButton with the specified label and action listener, and adds it to the window.
+calc(double x, String input, char opt): Performs the specified arithmetic operation.
+repaintFont(): Resets the font of the input display to plain style.
+calcTypeSwitchEventConsumer: Handles switching between Standard and Scientific modes.
+themeSwitchEventConsumer: Handles switching between different themes.
+
+Acknowledgments
+Inspired by various calculator applications and GUI design tutorials.
+
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request for improvements or bug fixes.
+
+Contact
+For any inquiries or support, please get in touch with hchaudhari1221@gmail.com.
