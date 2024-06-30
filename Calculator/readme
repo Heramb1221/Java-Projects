@@ -1,0 +1,27 @@
+Java Calculator
+
+Description
+This Java application implements a basic calculator with GUI using Swing. It performs simple arithmetic operations (+, -, *, /), includes decimal point functionality, and supports clearing, deleting, and negating numbers.
+
+Features
+Arithmetic Operations: Addition (+), Subtraction (-), Multiplication (*), Division (/).
+Decimal Point: Allows input of decimal numbers.
+Clear and Delete: Clears the input field (Clr), deletes the last character (Del).
+Negative Number: Negates the current number ((-)).
+Responsive GUI: User-friendly interface using Swing components.
+
+How to Use
+Run the Calculator class.
+Enter numbers using the numeric keypad.
+Use the arithmetic buttons (+, -, *, /) to perform operations.
+Press . for decimal points.
+Use Clr to clear the input field and Del to delete the last character.
+Press (-) to negate the current number.
+Press = to display the result of the operation.
+
+Technologies Used
+Java
+Swing (for GUI)
+
+Contributions
+Contributions to enhance the calculator's features or fix issues are welcome. Please fork the repository and create a pull request.
