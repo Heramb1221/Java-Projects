@@ -1,0 +1,23 @@
+Temperature Converter
+
+Overview
+This project is a simple Java-based temperature converter application. It provides a graphical user interface (GUI) for converting temperatures between various units such as Celsius, Fahrenheit, Kelvin, Rankine, and Réaumur. The application is built using Swing for the GUI components and handles user inputs and conversions through event-driven programming.
+
+Features
+Convert temperatures between Celsius, Fahrenheit, Kelvin, Rankine, and Réaumur.
+Simple and intuitive user interface with buttons for numerical input and basic operations.
+Clear and reset inputs with dedicated buttons.
+Handles positive and negative temperature values.
+
+Components
+Converter Class
+This class is responsible for performing the temperature conversions. It takes in the source and target temperature units along with the input and output text fields and performs the appropriate conversion.
+
+Handler Class
+Implements the ActionListener interface and handles all the button click events. It manages input from the user, updates the text fields, and triggers the conversion when the "Convert" button is pressed.
+
+MyFrame Class
+This class sets up the main application window. It defines the layout and positions of all GUI components (buttons, text fields, labels, combo boxes) and adds action listeners to the buttons.
+
+Parameters Interface
+Defines all the constant components used in the application, such as buttons, labels, text fields, and combo boxes for temperature units.
