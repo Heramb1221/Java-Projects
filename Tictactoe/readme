@@ -1,0 +1,23 @@
+Tic-Tac-Toe Game
+
+Description
+This Tic-Tac-Toe game is a Java application that allows two players to play the classic game of Tic-Tac-Toe on a graphical user interface. The game features alternating turns between 'X' and 'O', visual indication of the current player's turn, and automatic detection of winning conditions.
+
+Features
+Graphical User Interface (GUI): Built using Swing components for buttons, labels, and panels.
+Turn-Based Gameplay: Players take turns to place 'X' or 'O' on a 3x3 grid of buttons.
+Winning Condition Detection: Automatically detects when a player achieves three in a row horizontally, vertically, or diagonally.
+Game Outcome Display: Displays "X wins" or "O wins" when a player achieves three in a row.
+Random Player Start: The game randomly determines which player starts first.
+
+How to Play
+Run the Main class (Game) to start the Tic-Tac-Toe game.
+The game randomly selects which player ('X' or 'O') starts first.
+Click on any of the 3x3 grid buttons to place your marker ('X' or 'O').
+The game alternates turns between 'X' and 'O'.
+The game automatically checks for winning conditions after each move.
+If a player achieves three in a row, the game announces the winner and disables further gameplay.
+To start a new game, close the application and rerun the Main class.
+
+Contributions
+Contributions to enhance the game's functionality (e.g., adding AI opponent, improving UI/UX, adding sound effects) or fixing bugs are welcome. Please fork the repository and create a pull request.
